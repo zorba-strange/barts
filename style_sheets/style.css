@@ -1,0 +1,116 @@
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 2em 1em;
+    color: #555;
+}
+
+h1, h2, strong {
+    color: #333;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+#body_wrapper {
+    margin-top: 1em;
+    background-color: pink;
+}
+
+.carousel_item_height {
+    /* min-width: 100%; */
+    /* height: 45em; */
+}
+
+.relative_div {
+    postion: relative;
+}
+
+.carousel_caption {
+    position: absolute;
+    z-index: 1;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel_h3 {
+    font-size: 5vw;
+    /* color: pink; */
+}
+
+.absolute_div {
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    right: 0;
+    bottom: 20em;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+}
+
+
+.carousel_caption h3 {
+    display:table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
+
+
+
+.carousel > .carousel-item > img {
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+    /* min-width: 100%; */
+    max-height: 45em;
+}
+
+
+.free_quote_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fq_text {
+    padding: 5px; 
+}
+
+.fq_item {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 1em auto;
+    max-width: 20em;
+}
+
+
+.fq_img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
