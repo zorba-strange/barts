@@ -185,6 +185,11 @@ a:focus {
     border-bottom: none;
 }
 
-
+.deals_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
 
 
