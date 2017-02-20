@@ -62,7 +62,10 @@ h2 {
 
 .fq_item:active {
     transform: translateY(5px);
-    box-shadow: 5px 5px 0px #E5E5E5;
+}
+
+.fq_item:hover {
+    background-color: white;
 }
 
 
@@ -86,8 +89,40 @@ h2 {
 }
 
 
+.contact_wrapper {
+    margin: 2em auto;
+    width: 25em;
+    height: 6em;
+    max-width: 25em;
+    border: 3px solid grey;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0px #E5E5E5;
+    display: flex;
+    /* background-color: #2EC0F9; */
+    /* background-color: #9ECF5B; */ 
+    text-align: center;
+}
 
+.contact_wrapper:active {
+    transform: translateY(5px);
+}
 
+.contact_styles {
+    /* color: #7EBD2E; */
+    /* color: white; */
+    background-color: white;
+    width: 100%;
+    color: #2EC0F9;
+    padding-top: 15px; 
+    margin: 0 auto;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.contact_styles:hover {
+    color: white;
+    background-color: #2EC0F9;
+}
 
 
 
