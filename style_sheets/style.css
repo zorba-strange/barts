@@ -42,6 +42,7 @@ h2 {
 .fq_text {
     padding: 5px; 
     text-align: center;
+    font-size: 300%;
 }
 
 .fq_item {
@@ -52,6 +53,7 @@ h2 {
     border: 3px solid grey;
     border-radius: 5px;
     margin: 2em auto;
+    width: 20em;
     max-width: 20em;
     padding: 5px;
     background-color: #F2F2F2;
