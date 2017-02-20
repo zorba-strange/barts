@@ -83,10 +83,12 @@ h2 {
 .fq_item {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 3px solid grey;
     border-radius: 5px;
     margin: 2em auto;
-    max-width: 30em;
+    max-width: 20em;
     padding: 5px;
     background-color: #F2F2F2;
 }
