@@ -24,7 +24,7 @@ h2 {
 
 .title {
     font-size: 5em;
-    padding-bottom: .5em; 
+    /* padding-bottom: .5em; */ 
     border-bottom: 3px solid #333;
 }
 
@@ -112,7 +112,8 @@ h2 {
     /* color: white; */
     background-color: white;
     width: 100%;
-    color: #2EC0F9;
+    /* color: #2EC0F9; */
+    color: #79C508;
     padding-top: 15px; 
     margin: 0 auto;
     font-size: 300%;
@@ -121,15 +122,20 @@ h2 {
 
 .contact_styles:hover {
     color: white;
-    background-color: #2EC0F9;
+/* background-color: #2EC0F9; */
+    background-color: #79C508;
+}
+
+.motto {
+    margin-top: 2px;
+    padding-top: 1px;
 }
 
 
-
-
-
-
-
+.bullet_items {
+    font-weight: bold;
+    font-size: 120%;
+}
 
 
 
