@@ -110,6 +110,7 @@ h2 {
 .about_text, li {
     font-size: 150%;
     padding-bottom: 1em;
+    background: pink;
 }
 
 
