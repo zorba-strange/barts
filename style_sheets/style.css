@@ -107,7 +107,7 @@ h2 {
     margin: 1em;
 }
 
-.about_text {
+.about_text, li {
     font-size: 150%;
     padding-bottom: 1em;
 }
