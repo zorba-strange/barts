@@ -5,6 +5,22 @@ body {
     color: #555;
 }
 
+a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 0px;
+}
+
+.nav {
+    position: fixed;
+    z-index: 5;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
 h1, h2, strong {
     color: #333;
 }
@@ -37,6 +53,9 @@ h2 {
 .free_quote_wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-between; */
+    align-content: space-between;
 }
 
 .fq_text {
@@ -58,6 +77,8 @@ h2 {
     padding: 5px;
     background-color: #F2F2F2;
     box-shadow: 5px 5px 0px #E5E5E5;
+    /* margin-left: 20em; */
+    margin-right: 2em;
 }
 
 .fq_item:active {
@@ -136,7 +157,6 @@ h2 {
     font-weight: bold;
     font-size: 120%;
 }
-
 
 
 
