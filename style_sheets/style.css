@@ -110,7 +110,12 @@ h2 {
 .about_text, li {
     font-size: 150%;
     padding-bottom: 1em;
-    background: pink;
+}
+
+.flexbox_img_header {
+    display: flex;
+    width: 100%;
+    height: auto;
 }
 
 
