@@ -127,6 +127,7 @@ h2 {
 
 
 .contact_wrapper {
+    position: relative;
     margin: 2em auto;
     width: 25em;
     height: 6em;
@@ -173,6 +174,7 @@ h2 {
     font-weight: bold;
     font-size: 120%;
 }
+
 
 a:hover {
     color: #333;
