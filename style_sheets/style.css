@@ -13,15 +13,18 @@ a {
 .nav {
     position: fixed;
     z-index: 5;
-    margin-top: -1em;
-    width: 100%;
+    margin-top: 1em;
+    width: 98%;
+    top: 0;
 }
 
 .nav_header {
     display: flex;
-    margin-top: 0px;
-    background-color: white;
+    /* margin-top: 0px; */
+    /* background-color: white; */
     width: 100%;
+    /* position: relative; */
+    color: pink;
 }
 
 .
@@ -119,7 +122,7 @@ h2 {
     background-color: #F2F2F2;
     text-align: center;
     border-radius: 5px;
-    margin: 1em;
+    margin-top: 1em;
 }
 
 .about_text, li {
@@ -176,11 +179,13 @@ h2 {
     font-weight: bold;
     /* font-size: 2vw; */
     text-decoration: none;
+    /* text-align: left; */
+    padding-left: 0;
 }
 
 
 a:hover {
-    color: #333;
+    color: #555;
     text-decoration: none;
     border-bottom-color: white;
 }
@@ -199,4 +204,10 @@ a:focus {
 
 li {
     list-style-type: none;
+    /* padding: 0; */
+    clear: left;
+}
+
+a {
+    color: #555;
 }
